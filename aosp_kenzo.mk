@@ -17,7 +17,9 @@ $(call inherit-product, device/xiaomi/kenzo/full_kenzo.mk)
 
 
 # Inherit some common AOSP stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 
 # Set those variables here to overwrite the inherited values.
