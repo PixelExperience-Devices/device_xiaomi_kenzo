@@ -13,7 +13,7 @@
   },
   { 
     "remote":      "github",  
-    "repository":  "AmolAmrit/proprietary_vendor_xiaomi",
+    "repository":  "baalajimaestro/vendor_xiaomi_kenzo",
     "target_path": "vendor/xiaomi",
     "branch":      "pie"
   },
